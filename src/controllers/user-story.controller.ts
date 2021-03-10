@@ -11,28 +11,63 @@ const USER_STORY = {
     story: [
       {
         contents: "5번째 작품이 출간되었습니다",
-        CREATED_AT: "2016.02.03 23:55:55",
-        UPDATED_AT: "2016.05.05 23:55:55",
+        CREATED_AT: "2021.02.03 23:55:55",
+        UPDATED_AT: "",
         images: [
         ],
         profile: {
-          nickname: "string",
-          image: "string"
+          nickname: "김작가",
+          image: "https://emotion.sh/static/a76dfa0d18a0536af9e917cdb8f873b9/253d2/emotion.webp"
         },
         IS_LIKED: true,
-        LIKED_CNT: 0,
-        COMMENT_CNT: 0,
-        STORY_ID: 0,
+        LIKED_CNT: 788,
+        COMMENT_CNT: 56,
+        STORY_ID: 3,
+        IS_CREATOR: true,
+        IS_PINNED: false
+      },
+      {
+        contents: "어느새 새해가 밝아 오고 있는데 이렇게나 많은 분들이 기다려 주고 계셔서..",
+        CREATED_AT: "2021.12.31 17:05:55",
+        UPDATED_AT: "",
+        images: [
+        ],
+        profile: {
+          nickname: "김작가",
+          image: "https://emotion.sh/static/a76dfa0d18a0536af9e917cdb8f873b9/253d2/emotion.webp"
+        },
+        IS_LIKED: false,
+        LIKED_CNT: 235,
+        COMMENT_CNT: 23,
+        STORY_ID: 2,
         IS_CREATOR: true,
         IS_PINNED: true
-      }
+      },
+      {
+        contents: "메리 크리스마스! 특전으로 외전이벤트와 설정글 등을 타임라인에 일시적으로 공개합니다",
+        CREATED_AT: "2020.12.25 00:05:50",
+        UPDATED_AT: "2020.12.25 08:05:23",
+        images: [
+        ],
+        profile: {
+          nickname: "김작가",
+          image: "https://emotion.sh/static/a76dfa0d18a0536af9e917cdb8f873b9/253d2/emotion.webp"
+        },
+        IS_LIKED: false,
+        LIKED_CNT: 235,
+        COMMENT_CNT: 63,
+        STORY_ID: 1,
+        IS_CREATOR: true,
+        IS_PINNED: false
+      },
+
     ]
   }
 }
 
 
 /**
- * OpenAPI response for hello()
+ * OpenAPI response for User Story()
  */
 const userStory: ResponseObject = {
   description: 'User Story',
